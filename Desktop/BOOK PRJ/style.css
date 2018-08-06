@@ -1,0 +1,129 @@
+html, * {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgba(220, 200, 20, 0.4);  */
+    background: linear-gradient(to bottom right,rgba(220, 300, 128, .2), rgba(210,302,129, .3)), url(img/nebulae_sky-1366x768.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-size : 20px;
+} 
+
+.heading {
+    
+    display: flex;
+    border: 1px solid red;
+}
+
+
+
+#title_text  {
+    position: relative;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 300%;
+    font-weight: 100;
+    word-spacing: 1rem;
+    text-align: center;
+    border: 1px solid blue; 
+    left: 400px;    
+    top: 30px;
+    margin-left: 50px;
+}
+
+span{
+    color: rgba(7, 2, 1, 0.801);
+    font-weight: 100;
+    font-size: 5rem;
+}
+
+
+
+#logo{
+    height : 150px ;
+    width: 150px ;
+    position: relative;
+    left: 300px;
+    top: 10px;
+    border: 1px solid grey;  
+
+}
+
+.quote {
+
+    border: 1px solid #000;
+    margin: 550px 450px 20px 350px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    height: 100px;
+    width: auto;
+    top: 0px;
+    left: 100px;
+    position: fixed;
+}
+
+/* .row{
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid red; 
+    
+}   */
+
+
+ /* .quote { 
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    padding-top: 100px;
+    border: 1px solid green;
+    
+ } */
+
+
+#quotes_button {
+    display: block;
+    width: auto;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 100px 10px 100px;
+    cursor: pointer;
+    border: 2px outset #000;;
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    box-shadow: inset 0 0 8px #000;
+    text-shadow: 1px 1px 1px #000;
+    background-color:transparent;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+
+#quote_text_area {
+    height: 200px;
+
+    /* overflow: hidden; */
+    width: 800px;
+    /* min-height: 200px; */
+    margin: 40px 80px 0px 60px;
+    display: inline-block;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    /* border-bottom-width: 4px ; */
+    /* border-right-width: 4px; */
+    color: rgba(0, 0, 0, .6);
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 150%; 
+    text-align: left;
+    
+}
+
